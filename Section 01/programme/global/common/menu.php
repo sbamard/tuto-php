@@ -6,14 +6,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <!--   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Facile
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <?php for ($i = 1; $i <= 20; $i++) : ?>
                         <a class="dropdown-item" href="../../1-facile/exo<?= $i ?>/index.php">exo<?= $i ?></a>
                     <?php endfor; ?>
-                </div>
+                </div> -->
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

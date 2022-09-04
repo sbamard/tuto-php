@@ -24,6 +24,7 @@ require 'mesTableaux.php';
 
     <div class="col">
         <h2>Tableau2</h2>
+
         <?php
         $tab2 = [4, 8, 2, 26, 18, 14];
         afficherTableaux($tab2);
@@ -34,6 +35,7 @@ require 'mesTableaux.php';
             echo " Le tableau ne contient que des valeurs paires";
         }
         ?>
+        
     </div>
 </div>
 

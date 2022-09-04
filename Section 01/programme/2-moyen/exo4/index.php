@@ -7,52 +7,35 @@ $titre = "Exo 4 : POO"; //Mettre le nom du titre de la page que vous voulez
 <?php
 
 
-$animal1 = [
-    'nom' => 'Minouchette',
-    'age' => '15',
-    'type' => 'chat'
-];
+class animal
+{
+    public $nom;
+    public $age;
+    public $type;
 
-$animal2 = [
-    'nom' => 'Morea',
-    'age' => '15',
-    'type' => 'chat'
-];
+    public function __construct($nom, $age, $type)
+    {
+        $this->nom = $nom;
+        $this->age = $age;
+        $this->type = $type;
+    }
+}
 
-$animal3 = [
-    'nom' => 'Simba',
-    'age' => '22',
-    'type' => 'chat'
-];
+$animal1 = new animal("Minouchette", 16, "chat");
+$animal2 = new animal("Momo", 15, "chat");
+$animal3 = new animal("Nono", 4, "chien");
+$animal4 = new animal("Nina", 5, "chien");
 
-$animal4 = [
-    'nom' => 'Normandie',
-    'age' => '1',
-    'type' => 'chien'
-];
-
-$animal5 = [
-    'nom' => 'Clochette',
-    'age' => '8',
-    'type' => 'chien'
-];
-
-$animal6 = [
-    'nom' => 'Nina',
-    'age' => '3',
-    'type' => 'chien'
-];
-
-$animaux = [$animal1, $animal2, $animal3, $animal4, $animal5, $animal6];
+$animaux = [$animal1, $animal2, $animal3, $animal4];
 
 function afficherAnimaux()
 {
     global $animaux;
     echo "----------------------- <br />";
     foreach ($animaux as $animal) {
-        foreach ($animal as $key => $valeur) {
-            echo $key . " : " . $valeur . "<br />";
-        }
+        echo "Nom : " . $animal->nom . "<br />";
+        echo "Age : " . $animal->age . "<br />";
+        echo "Type : " . $animal->type . "<br />";
         echo "----------------------- <br />";
     }
 }
@@ -62,10 +45,10 @@ function afficherAnimauxType($type)
     global $animaux;
     echo "----------------------- <br />";
     foreach ($animaux as $animal) {
-        if ($animal['type'] === $type) {
-            foreach ($animal as $key => $value) {
-                echo $key . " : " . $value . "<br />";
-            }
+        if ($animal->type === $type) {
+            echo "Nom : " . $animal->nom . "<br />";
+            echo "Age : " . $animal->age . "<br />";
+            echo "Type : " . $animal->type . "<br />";
             echo "----------------------- <br />";
         }
     }
