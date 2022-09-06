@@ -1,5 +1,5 @@
 <?php ob_start(); //NE PAS MODIFIER 
-$titre = "Exo 6 : Attribut statique"; //Mettre le nom du titre de la page que vous voulez
+$titre = "Exo 7 : Manipuler 2 classes"; //Mettre le nom du titre de la page que vous voulez
 require 'player.php';
 require 'weapon.php';
 ?>

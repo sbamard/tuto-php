@@ -30,14 +30,9 @@
                     Difficile
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo1.php">exo1</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo2.php">exo2</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo3.php">exo3</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo4.php">exo4</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo5.php">exo5</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo6.php">exo6</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo7.php">exo7</a>
-                    <a class="dropdown-item" href="../../4-cas pratique/1-Armes/exo8.php">exo8</a>
+                    <a class="dropdown-item" href="../../3-difficile/exo1/index.php">Armes médieval</a>
+                    <a class="dropdown-item" href="../../3-difficile/exo2/index.php">Catalogue de produits</a>
+                    <a class="dropdown-item" href="../../3-difficile/exo3/index.php">Page web complète</a>
                 </div>
             </li>
         </ul>
