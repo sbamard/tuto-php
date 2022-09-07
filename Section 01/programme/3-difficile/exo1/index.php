@@ -27,7 +27,7 @@ class arme{
 
 $arme1 = new arme("Épée", "Une arme a une main", "epee/epee1.png");
 
-echo $arme1;
+echo $arme1; 
 
 ?>
 
